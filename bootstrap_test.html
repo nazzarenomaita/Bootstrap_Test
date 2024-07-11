@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Bootstrap Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="concerti.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#band">Band</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tour">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                  <li><a class="dropdown-item" href="#">Extras</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Media</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Concerto Annalisa" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="New_york_times_square-terabass.jpg" class="d-block w-100" alt="new_york">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>New York</h5>
+                  <h6>La bellezza di Times Square</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="parigi.jpg" class="d-block w-100" alt="parigi">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Parigi</h5>
+                  <h6>Un luogo incantevole</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="roma.jpg" class="d-block w-100" alt="roma">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Roma</h5>
+                  <h6>Capitale del mondo</h6>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+      <br>
+
+      <div id="band">
+        <h2>THE BAND</h2>
+        <h4>We love Music</h4>
+        <p>Scopri tutti i dettagli sui concerti della tua band preferita! Qui puoi trovare le informazioni più aggiornate su date, location e biglietti. Non perdere l'occasione di vivere un'esperienza musicale unica e coinvolgente.
+            Iscriviti alla nostra newsletter per ricevere aggiornamenti esclusivi sui nuovi concerti, offerte speciali e molto altro. Seguici sui social media per vivere da vicino ogni momento dei nostri tour e dei nostri eventi.</p>
+
+            <div class="container my-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="vasco.jfif" class="card-img-top card-img-oval" alt="Vasco Rossi">
+                            <div class="card-body">
+                                <h5 class="card-title">Vasco Rossi</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="annalisa.jfif" class="card-img-top card-img-oval" alt="Annalisa">
+                            <div class="card-body">
+                                <h5 class="card-title">Annalisa</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="madonna.jfif" class="card-img-top card-img-oval" alt="madonna">
+                            <div class="card-body">
+                                <h5 class="card-title">Madonna</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+            
+
+        <div id="tour">
+            <h2>TOUR</h2>
+            <h4>Lorem ipsum we'll play your some music.</h4>
+            <h4>Remember to book your tickets!</h4>
+
+            <div class="container my-5">
+                <table class="table table-sm table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>Settembre: <span class="sold-out">Sold Out</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ottobre: <span class="sold-out">Sold Out</span></td>
+                        </tr>
+                        <tr>
+                            <td>Novembre:</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="container my-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card" style="width: 16rem;">
+                            <img src="new_york2.jpg" class="card-img-top" alt="new_york">
+                            <div class="card-body">
+                                <h5 class="card-title">New York</h5>
+                                <p class="card-text">30/07/2024</p>
+                                <a href="#" class="btn btn-primary">Buy Ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 16rem; object-fit: cover;" >
+                            <img src="parigi.jpg" class="card-img-top" alt="parigi">
+                            <div class="card-body">
+                                <h5 class="card-title">Parigi</h5>
+                                <p class="card-text">10/09/2024</p>
+                                <a href="#" class="btn btn-primary">Buy Ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 16rem;">
+                            <img src="roma.jpg" class="card-img-top" alt="roma" width="100%" height="100%">
+                            <div class="card-body">
+                                <h5 class="card-title">Roma</h5>
+                                <p class="card-text">20/08/2024</p>
+                                <a href="#" class="btn btn-primary">Buy Ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>s
+            </div>
+              
+            
+        </div>
+        <div id="contact">
+        <div class="container my-5">
+            <div class="row">
+                <!-- Colonna sinistra -->
+                <div class="col-md-6">
+                    <div class="p-4 border rounded">
+                        <!-- Logo -->
+                        <h5>Sei un fan? Inviaci una richiesta con il form.</h5>
+                       
+                        <ul class="list-unstyled">
+                            <li><strong>Città:</strong> Roma</li>
+                            <li><strong>Telefono:</strong> +39 123 4567890</li>
+                            <li><strong>Email:</strong> mario.rossi@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Colonna destra -->
+                <div class="col-md-6">
+                    <div class="p-4 border rounded">
+                        <h5 class="mb-4">Contattaci</h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="inputNome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="inputNome" placeholder="Inserisci il tuo nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Inserisci la tua email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputCommenti" class="form-label">Commenti</label>
+                                <textarea class="form-control" id="inputCommenti" rows="4" placeholder="Inserisci i tuoi commenti"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Invia</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>From the Blog</h4>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Nazzareno</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Angelo</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Carlo</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><h2>Nazzareno, appassionato di musica Rock</h2><br><p>I concerti sono la mia passione più grande. Niente batte l'emozione di entrare in un locale pieno di energia e vedere il mio artista preferito salire sul palco. Ogni concerto è un'esperienza unica, un mix di emozioni che mi riempie il cuore di gioia e adrenalina. La musica dal vivo è un'arte che mi rapisce ogni volta, lasciandomi con ricordi indelebili e la voglia di tornare sempre per vivere nuove avventure sonore.</p></div>
+                
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><h2>Angelo, appassionato di musica Pop</h2><br><p>Da quando ho assistito al mio primo concerto, sono diventato un collezionista di esperienze musicali. I biglietti e i poster dei concerti che ho visto nel corso degli anni sono il mio tesoro più prezioso. Ogni evento è un capitolo nella mia storia personale, un ricordo tangibile di serate indimenticabili con amici e artisti che ammiro. Per me, i concerti non sono solo spettacoli musicali, ma occasioni per connettermi con la musica e con le persone che la amano come me.</p></div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><h2>Carlo, appassionato di musica House</h2><br><p>Come musicista, i concerti rappresentano il mio carburante creativo. Assistere a esibizioni dal vivo è il modo migliore per imparare e trarre ispirazione. Ogni artista ha qualcosa di unico da offrire, e vedere come portano la loro musica sul palco è una lezione continua. I concerti sono anche il luogo perfetto per incontrare persone con cui condividere la mia passione per la musica, creando legami speciali attraverso la condivisione di momenti intensi e emozionanti.</p></div>
+              </div>
+        </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

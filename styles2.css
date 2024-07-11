@@ -1,0 +1,82 @@
+.navbar-custom {
+    background-color: #000; /* Colore nero per la navbar */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-toggler-icon {
+    color: #fff; /* Colore bianco per il testo e l'icona del toggler */
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+    color: #ccc; /* Colore grigio chiaro per il testo al passaggio del mouse */
+}
+.dropdown-menu {
+    background-color: #000; /* Colore nero per il menu a tendina */
+}
+.dropdown-item {
+    color: #fff; /* Colore bianco per le voci del menu a tendina */
+}
+.dropdown-item:hover {
+    background-color: #444; /* Colore di sfondo al passaggio del mouse sulle voci del menu a tendina */
+}
+h2{
+    text-align: center;
+    color: black;
+}
+h4{
+    font-family: Barskerville;
+    text-align: center;
+    color: black;
+}
+p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+   
+}
+.card-img-oval {
+    border-radius: 50%; /* Rende l'immagine ovale */
+    width: 150px; /* Larghezza dell'immagine */
+    height: 150px; /* Altezza dell'immagine */
+    object-fit: cover; /* Mantiene le proporzioni dell'immagine */
+    margin: 0 auto; /* Centra l'immagine nella card */
+    display: block; /* Centra l'immagine nella card */
+}
+.card {
+    text-align: center; /* Allinea il testo al centro */
+}
+#tour{
+    background-color: #000;
+}
+#tour > h2{
+    text-align: center;
+    color:white;
+}
+#tour > h4{
+    text-align: center;
+    color:white;
+}
+.sold-out {
+    color: red;
+    font-weight: bold;
+}
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+#footer{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+@media (min-width: 768px) {
+        .card-img-top {
+            width: 100px; /* Larghezza dell'immagine */
+            height: 100px; /* Altezza dell'immagine */
+        }
+    
+}
+    
+   
